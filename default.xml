@@ -409,7 +409,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4" />
+  <project path="system/core" name="weaponX_core" remote="wx" revision="wx44" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
