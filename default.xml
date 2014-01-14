@@ -11,7 +11,7 @@
            fetch="https://github.com" />
 
   <remote  name="ln" 
-           fetch="git://git.linaro.android.org/" />
+           fetch="git://android.git.linaro.org/" />
 
   <remote  name="github"
            fetch="git://github.com/"
