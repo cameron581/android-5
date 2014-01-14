@@ -446,9 +446,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/weapon" name="android_vendor_weapon" remote="wx" revision="wx44" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-11.0" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
   <project path="platform_manifest" name="android" remote="wx" revision="wx44" />
 
-  <!-- Device dependencies -->
+  <!-- Device's -->
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="wx" revision="wx44" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="wx" revision="wx44" />
+  <project path="device/motorola/xt1034" name="android_device_motorola_xt1034" remote="wx" revision="wx44" />
+  <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.0"
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="wx" revision="wx44" />
+  <project path="kernel/motorola/msm8226" name="razrqcom-dev-team/android_kernel_motorola_msm8226"  remote="gh" revision="cm-11.0" />
+
 </manifest>
