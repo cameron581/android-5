@@ -429,7 +429,7 @@
   <!-- Device's -->
   <project path="device/lge/mako" name="android_device_lge_mako" remote="wx" revision="wx44" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="wx" revision="wx44" />
-  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="wx" revision="wx44" />
+  <project path="kernel/lge/hammerhead" name="soupy031/android_kernel_lge_hammerhead" remote="gh" revision="wx44" />
   <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.0" />
   <project name="razrqcom-dev-team/android_hardware_qcom_audio-msm8226" path="hardware/qcom/audio-msm8226" remote="github" revision="cm-11.0" />
   <project name="razrqcom-dev-team/android_hardware_qcom_display-msm8226" path="hardware/qcom/display-msm8226" remote="github" revision="cm-11.0" />
