@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/WeaponX/android.git -b wx44
+    repo init -u git://github.com/WeaponX1/android.git -b wx44
 
     repo sync
 
@@ -49,5 +49,5 @@ Enter the number of the build you want to start and press enter
 
 Build the Code:
 
-    time mka weaponx
+   time mka device
 
