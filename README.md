@@ -1,6 +1,6 @@
 WeaponX Source
 ===================
-To get started with LiquidSmooth, you'll need to get
+To get started with WeaponX, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Create the Directories
@@ -47,7 +47,7 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 
 Enter the number of the build you want to start and press enter
 
-Build the Code:
+    Build the Code:
 
-   time mka device
+    time mka device
 
