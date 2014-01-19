@@ -252,7 +252,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="linaro_android_4.4.2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="weapon_frameworks_native" remote="wx" revision="wx44" />
+  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
