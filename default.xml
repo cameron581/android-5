@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <remote  name="aosp"
@@ -438,4 +438,16 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/weapon" name="android_vendor_weapon" remote="wx" revision="wx44" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-11.0" />
+
+  <!-- Device's -->
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="wx" revision="wx44" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="wx" revision="wx44" />
+  <project path="kernel/lge/hammerhead" name="soupy031/android_kernel_lge_hammerhead" remote="gh" revision="wx44" />
+  <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.0" />
+  <project name="razrqcom-dev-team/android_hardware_qcom_audio-msm8226" path="hardware/qcom/audio-msm8226" remote="github" revision="cm-11.0" />
+  <project name="razrqcom-dev-team/android_hardware_qcom_display-msm8226" path="hardware/qcom/display-msm8226" remote="github" revision="cm-11.0" />
+  <project name="razrqcom-dev-team/android_hardware_qcom_media-msm8226" path="hardware/qcom/media-msm8226" remote="github" revision="cm-11.0" />
+  <project name="razrqcom-dev-team/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="gh" revision="cm-11.0" />
 </manifest>
