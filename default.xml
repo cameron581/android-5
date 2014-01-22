@@ -125,6 +125,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
+  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
@@ -149,6 +150,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -276,6 +279,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
@@ -311,8 +315,11 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="kk4.4" />
+ <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Dialer" name="android_packages_Dialer" remote="wx" revision="wx44" />
+  <project path="packages/apps/Dialer" name="android_packages_Dialer" remote="wx" revision="wx44"/>    
+  <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
+
   <project path="packages/apps/Email" name="android_packages_Email" remote="wx" revision="wx44" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="kk4.4" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -334,7 +341,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="kk4.4" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="weapon_packages_apps_Settings" remote="wx" revision="wx44" />
+  <project path="packages/apps/Settings" name="weapon_packages_apps_Settings" remote="wx" revision="wx44" /> 
+ <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="kk4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -370,6 +378,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="weapon_packages_PhaseBeam" remote="wx" revision="wx44" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
+  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/Saber" name="sabermod_gcc" remote="wx" revision="wx44" />
   <project path="prebuilts/gcc/linux-x86/arm/Linaro" name="kernel_gcc" remote="wx" revision="wx44" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
