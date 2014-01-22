@@ -49,5 +49,5 @@ Enter the number of the build you want to start and press enter
 
     Build the Code:
 
-    time mka device
+    time mka bacon
 
