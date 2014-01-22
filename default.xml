@@ -370,8 +370,8 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="weapon_packages_PhaseBeam" remote="wx" revision="wx44" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
-  <project path="prebuits/gcc/linux-x86/arm/SM" name="sabermod_gcc" remote="wx" revision="wx44" />
-  <project path="prebuilts/gcc/linux-x86/arm/LK" name="kernel_gcc" remote="wx" revision="wx44" />
+  <project path="prebuits/gcc/linux-x86/arm/Saber" name="sabermod_gcc" remote="wx" revision="wx44" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro" name="kernel_gcc" remote="wx" revision="wx44" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
