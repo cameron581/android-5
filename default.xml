@@ -28,7 +28,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="dalvik" name="weapon_X_Dalvik" remote="wx" revision="wx44" />
-  <project path="development" name="weapon_development" remote="wx" revision="wx44" />
+  <project path="development" name="weapon_Development" remote="wx" revision="wx44" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -430,8 +430,8 @@
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="wx" revision="wx44" />
   <project path="kernel/samsung/msm8660-common" name="android_weapon-x-kernel" remote="wx" revision="wx44" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="wx" revision="wx44" />
-  <project path="device/lge/hammerhead" name="weapon_device_lge_hammerhead" remote="wx" revision="44CAL" />
-  <project path="kernel/lge/hammerhead" name="android_lge_weapon-x-kernel" remote="wx" revision="wx44" />
+  <project path="device/lge/hammerhead" name="weapon_device_lge_hammerhead" remote="wx" revision="wx44" />
+  <project path="kernel/lge/hammerhead" name="android_lge_weapon-x-kernel" remote="wx" revision="44CAL" />
   <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.0" />
   <project name="razrqcom-dev-team/android_hardware_qcom_audio-msm8226" path="hardware/qcom/audio-msm8226" remote="github" revision="cm-11.0" />
   <project name="razrqcom-dev-team/android_hardware_qcom_display-msm8226" path="hardware/qcom/display-msm8226" remote="github" revision="cm-11.0" />
