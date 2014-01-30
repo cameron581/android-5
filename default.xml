@@ -24,10 +24,10 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
-  <project path="bionic" name="weapon_X_bionic" remote="wx" revision="wx44" />
+  <project path="bionic" name="weapon_X_Bionic" remote="wx" revision="wx44" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
-  <project path="dalvik" name="weapon_X_dalvik" remote="wx" revision="wx44" />
+  <project path="dalvik" name="weapon_X_Dalvik" remote="wx" revision="wx44" />
   <project path="development" name="weapon_development" remote="github" revision="wx44" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -329,7 +329,7 @@
   <project path="packages/apps/UnifiedEmail" name="weapon_packages_apps_UnifiedEmail" remote="wx" revision="wx44" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="SlimRoms/packages_apps_VoiceDialer" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Wallpapers" name="wepaon_packages_apps_Wallpapers" remote="wx" revision="wx44" />
+  <project path="packages/apps/Wallpapers" name="weapon_packages_apps_Wallpapers" remote="wx" revision="wx44" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="kk4.4" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
