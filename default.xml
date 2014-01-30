@@ -23,7 +23,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
+  <project path="art" name="weapon_Art" remote="wx" revision="wx44"  />
   <project path="bionic" name="weapon_X_Bionic" remote="wx" revision="wx44" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
@@ -130,7 +130,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
+  <project path="external/koush/Superuser" name="weapon_Superuser" remote="wx" revision="wx44" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -194,7 +194,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="kk4.4" />
+  <project path="external/sepolicy" name="external_weapon_Sepolicy" remote="wx" revision="wx44" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
@@ -265,8 +265,8 @@
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/camera" name="weapon_hardware_qcom_camera" remote="wx" revision="wx44" />
+  <project path="hardware/qcom/display" name="weapon_hardware_qcom_display" remote="wx" revision="wx44" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media" name="weapon_hardware_qcom_media" remote="wx" revision="wx44" />
@@ -287,7 +287,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="weapon_packages_apps_Bluetooth" remote="wx" revision="wx44" />
   <project path="packages/apps/Browser" name="weapon_packages_apps_Browser" remote="wx" revision="wx44" />
-  <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="weapon_packages_apps_Calculator" remote="wx" revision="wx44" />
   <project path="packages/apps/Calendar" name="weapon_packages_apps_Calendar" remote="wx" revision="wx44" />
   <project path="packages/apps/Camera2" name="weapon_packages_apps_Camera2" remote="wx" revision="wx44" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -295,10 +295,10 @@
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="weapon_packages_apps_ContactsCommon" remote="wx" revision="wx44" />
   <project path="packages/apps/DashClock" name="weapon_packages_apps_DashClock" remote="wx" revision="wx44" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="weapon_packages_apps_DeskClock" remote="wx" revision="wx44" />
   <project path="packages/apps/Dialer" name="weapon_packages_apps_Dialer" remote="wx" revision="wx44"/>    
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="wx" revision="wx44" />
+  <project path="packages/apps/Email" name="weapon_packages_apps_Email" remote="wx" revision="wx44" />
   <project path="packages/apps/Exchange" name="weapon_packages_apps_Exchange" remote="wx" revision="wx44" />
   <project path="packages/apps/Gallery2" name="weapon_packages_apps_Gallery2" remote="wx" revision="wx44" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -340,12 +340,12 @@
   <project path="packages/providers/DownloadProvider" name="weapon_packages_providers_DownloadProvider" remote="wx" revision="wx44" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="kk4.4" />
+  <project path="packages/providers/TelephonyProvider" name="weapon_providers_TelephonyProvider" remote="wx" revision="wx44" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="weapon_services_Telephony" remote="wx" revision="wx44" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -421,20 +421,16 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/weapon" name="android_vendor_weapon" remote="wx" revision="wx44" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-11.0" />
+  <project path="vendor/lge" name="proprietary_weapon_lge" remote="wx" revision="wx44" />
 
   <!-- Device's -->
-  <project path="device/samsung/hercules" name="device_samsung_hercules" remote="wx" revision="wx44" />
-  <project path="device/samsung/celox-common" name="device_samsung_celox-common" remote="wx" revision="wx44" />
-  <project path="device/samsung/msm8660" name="device_samsung_msm8660-common" remote="wx" revision="wx44" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="wx" revision="wx44" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="wx" revision="wx44" />
   <project path="device/lge/hammerhead" name="weapon_device_lge_hammerhead" remote="wx" revision="wx44" />
   <project path="kernel/lge/hammerhead" name="android_lge_weapon-x-kernel" remote="wx" revision="44CAL" />
   <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.0" />
-  <project name="razrqcom-dev-team/android_hardware_qcom_audio-msm8226" path="hardware/qcom/audio-msm8226" remote="github" revision="cm-11.0" />
-  <project name="razrqcom-dev-team/android_hardware_qcom_display-msm8226" path="hardware/qcom/display-msm8226" remote="github" revision="cm-11.0" />
-  <project name="razrqcom-dev-team/android_hardware_qcom_media-msm8226" path="hardware/qcom/media-msm8226" remote="github" revision="cm-11.0" />
-  <project name="razrqcom-dev-team/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="gh" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-msm8226" name="razrqcom-dev-team/android_hardware_qcom_audio-msm8226" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-msm8226" name="razrqcom-dev-team/android_hardware_qcom_display-msm8226" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-msm8226" name="razrqcom-dev-team/android_hardware_qcom_media-msm8226" remote="github" revision="cm-11.0" />
+  <project path="vendor/motorola" name="razrqcom-dev-team/proprietary_vendor_motorola" remote="gh" revision="cm-11.0" />
+  <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" remote="gh" revision="cm-11.0" />
 </manifest>
