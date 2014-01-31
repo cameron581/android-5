@@ -265,8 +265,8 @@
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/camera" name="weapon_hardware_qcom_camera" remote="wx" revision="wx44" />
-  <project path="hardware/qcom/display" name="weapon_hardware_qcom_display" remote="wx" revision="wx44" />
+  <project path="hardware/qcom/camera" name="weapon_hardware_qcom_Camera" remote="wx" revision="wx44" />
+  <project path="hardware/qcom/display" name="weapon_hardware_qcom_Display" remote="wx" revision="wx44" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media" name="weapon_hardware_qcom_media" remote="wx" revision="wx44" />
