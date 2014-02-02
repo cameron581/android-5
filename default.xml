@@ -358,6 +358,8 @@
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/Saber" name="sabermod_gcc" remote="wx" revision="wx44" />
   <project path="prebuilts/gcc/linux-x86/arm/Linaro" name="kernel_gcc" remote="wx" revision="wx44" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-ROM" name="Cl3Kener/LINARO" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-Kernel" name="Cl3Kener/LINARO-KERNEL" remote="gh" revision="master" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
