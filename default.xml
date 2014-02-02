@@ -189,6 +189,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
@@ -294,7 +295,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="weapon_packages_apps_ContactsCommon" remote="wx" revision="wx44" />
-  <project path="packages/apps/DashClock" name="weapon_packages_apps_DashClock" remote="wx" revision="wx44" />
   <project path="packages/apps/DeskClock" name="weapon_packages_apps_DeskClock" remote="wx" revision="wx44" />
   <project path="packages/apps/Dialer" name="weapon_packages_apps_Dialer" remote="wx" revision="wx44"/>    
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
