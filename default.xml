@@ -5,10 +5,10 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="wx"
-           fetch="https://github.com/WeaponX1" />
+           fetch="https://github.com/WeaponX1/" />
   
   <remote  name="gh"
-           fetch="https://github.com" />
+           fetch="https://github.com/" />
 
   <remote  name="github"
            fetch="git://github.com/"
