@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/WeaponX1/android.git -b wx44
+    repo init -u git://github.com/cameron581/android-5.git -b wx44
 
     repo sync
 
