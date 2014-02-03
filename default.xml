@@ -424,11 +424,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/weapon" name="android_vendor_weapon" remote="wx" revision="wx44" />
   <project path="vendor/lge" name="proprietary_weapon_lge" remote="wx" revision="wx44" />
-
-  <!-- Device's -->
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="wx" revision="wx44" />
-  <project path="device/lge/hammerhead" name="weapon_device_lge_hammerhead" remote="wx" revision="wx44" />
-  <project path="kernel/lge/hammerhead" name="android_lge_weapon-x-kernel" remote="wx" revision="44CAL" />
-  <project path="device/motorola/falcon" name="WeaponX1/android_device_motorola_falcon" remote="gh" revision="kitkat" />
   <project path="vendor/motorola" name="razrqcom-dev-team/proprietary_vendor_motorola" remote="gh" revision="cm-11.0" />
 </manifest>
