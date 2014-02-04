@@ -425,4 +425,10 @@
   <project path="vendor/weapon" name="android_vendor_weapon" remote="wx" revision="wx44" />
   <project path="vendor/lge" name="proprietary_weapon_lge" remote="wx" revision="wx44" />
   <project path="vendor/motorola" name="razrqcom-dev-team/proprietary_vendor_motorola" remote="gh" revision="cm-11.0" />
+  <project path="device/motorola/falcon" name="WeaponX1/android_device_motorola_falcon" remote="gh" revision="wx44" />
+  <project path="device/motorola/msm8226-common" name="TEAM-Gummy/android_device_motorola_msm8226-common" remote="gh" revision="kk4.4" />
+  <project path="kernel/motorola/msm8226" name="LiquidSmooth/android_kernel_motorola_msm8226" remote="gh" revision="kitkat" />
+  <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
 </manifest>
