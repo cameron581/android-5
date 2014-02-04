@@ -425,4 +425,5 @@
   <project path="vendor/lge" name="proprietary_weapon_lge" remote="wx" revision="wx44" />
   <project path="vendor/motorola" name="razrqcom-dev-team/proprietary_vendor_motorola" remote="gh" revision="cm-11.0" />
   <project path="device/motorola/falcon" name="WeaponX1/android_device_motorola_falcon" remote="gh" revision="wx44" />
+  <project path="device/motorola/msm8226-common" name="TEAM-Gummy/android_device_motorola_msm8226-common" remote="gh" revision="kk4.4" />
 </manifest>
