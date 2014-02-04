@@ -265,7 +265,6 @@
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/audio-caf" name="LiquidSmooth/android_hardware_qcom_audio-caf" remote="gh" revision="kitkat" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="weapon_hardware_qcom_Camera" remote="wx" revision="wx44" />
   <project path="hardware/qcom/display" name="weapon_hardware_qcom_Display" remote="wx" revision="wx44" />
