@@ -12,6 +12,9 @@
   
   <remote  name="gh"
            fetch="https://github.com/" />
+ 
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
 
   <remote  name="github"
            fetch="git://github.com/"
