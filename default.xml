@@ -6,6 +6,9 @@
 
   <remote  name="wx"
            fetch="https://github.com/WeaponX1/" />
+           
+  <remote  name="WeaponX1"
+           fetch="https://github.com/WeaponX1/" />
   
   <remote  name="gh"
            fetch="https://github.com/" />
