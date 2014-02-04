@@ -429,6 +429,4 @@
   <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.9" />
   <project path="kernel/motorola/msm8226" name="LiquidSmooth/android_kernel_motorola_msm8226" remote="gh" revision="kitkat" />
   <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
 </manifest>
