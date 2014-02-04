@@ -426,6 +426,5 @@
   <project path="vendor/motorola" name="razrqcom-dev-team/proprietary_vendor_motorola" remote="gh" revision="cm-11.0" />
   <project path="device/motorola/falcon" name="WeaponX1/android_device_motorola_falcon" remote="gh" revision="wx44" />
   <project path="device/motorola/msm8226-common" name="razrqcom-dev-team/android_device_motorola_msm8226-common" remote="gh" revision="cm-11.9" />
-  <project path="kernel/motorola/msm8226" name="LiquidSmooth/android_kernel_motorola_msm8226" remote="gh" revision="kitkat" />
   <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
 </manifest>
