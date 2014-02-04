@@ -18,7 +18,7 @@
            remote="aosp"
            sync-j="4" />
            
-  <project path="platform_manifest" name="cameron581/android-5" remote="gh" revision="wx44" />
+
   <project path="build" name="weapon_build" remote="wx" revision="wx44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
